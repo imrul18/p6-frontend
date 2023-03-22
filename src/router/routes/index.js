@@ -15,6 +15,7 @@ import { isObjEmpty } from "@utils";
 import UserRoute from "../../views/User/UserRoute";
 import RoleRoute from "../../views/Role/RoleRoute";
 import PermissionRoute from "../../views/Permission/PermissionRoute";
+import ProductRoute from "../../views/Product/ProductRoute";
 
 const getLayout = {
   blank: <BlankLayout />,
@@ -41,6 +42,7 @@ const Routes = [
   ...UserRoute,
   ...RoleRoute,
   ...PermissionRoute,
+  ...ProductRoute,
   {
     path: "/",
     index: true,

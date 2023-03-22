@@ -3,7 +3,7 @@ import axios from "axios";
 import reactDom from "react-dom";
 
 let Api = axios.create({
-  baseURL: 'http://p-6.test/api',
+  baseURL: 'http://p-7.test/api',
 
   headers: {
     "Content-type": "application/json",

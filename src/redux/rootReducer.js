@@ -3,7 +3,8 @@ import navbar from "./navbar";
 import Auth from '@src/views/Auth/store'
 import users from '@src/views/User/store'
 import roles from '@src/views/Role/store'
-import permission from '@src/views/Permission/store'
+import permissions from '@src/views/Permission/store'
+import products from '@src/views/Product/store'
 
 const rootReducer = { 
     navbar, 
@@ -11,7 +12,8 @@ const rootReducer = {
     Auth,
     users,
     roles,
-    permission
+    permissions,
+    products
  };
 
 export default rootReducer;

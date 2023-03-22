@@ -24,5 +24,11 @@ export default [
     title: "Permission List",
     icon: <Circle size={20} />,
     navLink: "/permission-list",
+  },
+  {
+    id: "product",
+    title: "Product",
+    icon: <Circle size={20} />,
+    navLink: "/product",
   }
 ];
